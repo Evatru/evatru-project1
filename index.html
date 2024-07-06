@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evatru'blog Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  
+  <header class="bg-gray-800 text-white p-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-2xl font-bold">Evatru-media</div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#" class="hover:text-gray-400">Home</a></li>
+          <li><a href="#" class="hover:text-gray-400">About</a></li>
+          <li><a href="#" class="hover:text-gray-400">Categories</a></li>
+          <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+    
+    <section class="py-12 bg-white">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-semibold text-center mb-8">Featured Posts</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-lg">
+              <img src="/feature img.jpg" alt="Post 1" class="w-full h-48 object-cover">
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">World of fashion</h3>
+                <p class="text-gray-700 mb-4">life is about giving yourself the best in everything including fashion</p>
+                <a href="#" class="text-blue-500 hover:underline">Read more</a>
+              </div>
+            </div>
+            
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-lg">
+              <img src="/rec image.png" alt="Post 2" class="w-full h-48 object-cover">
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">life Insurance</h3>
+                <p class="text-gray-700 mb-4">save yourself from generational poverty,invest in your future now that you can.save as little as any amount today.</p>
+                <a href="#" class="text-blue-500 hover:underline">Read more</a>
+              </div>
+            </div>
+            
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-lg">
+              <img src="/web image.png" alt="Post 3" class="w-full h-48 object-cover">
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">world of technology</h3>
+                <p class="text-gray-700 mb-4">in order to stay relevant and connected in todays world,you have to dive into the new world of technology</p>
+                <a href="#" class="text-blue-500 hover:underline">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+  <section class="py-12">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-semibold mb-8">Categories</h2>
+      <div class="flex justify-center space-x-4">
+        <span class="bg-blue-500 text-white py-2 px-4 rounded-full">Technology</span>
+        <span class="bg-green-500 text-white py-2 px-4 rounded-full">Health</span>
+        <span class="bg-red-500 text-white py-2 px-4 rounded-full">Lifestyle</span>
+        <span class="bg-yellow-500 text-white py-2 px-4 rounded-full">Education</span>
+      </div>
+    </div>
+  </section>
+  
+  <section class="py-12 bg-gray-50">
+    <div class="container mx-auto">
+      <h2 class="text-2xl font-semibold text-center mb-8">Recent Posts</h2>
+      <ul class="space-y-4">
+        <li class="border-b border-gray-300 pb-4">
+          <a href="#" class="text-lg font-semibold text-blue-500 hover:underline">new generation world</a>
+          <p class="text-gray-600">July 5, 2024</p>
+        </li>
+        <li class="border-b border-gray-300 pb-4">
+          <a href="#" class="text-lg font-semibold text-blue-500 hover:underline">living your best life</a>
+          <p class="text-gray-600">June 28, 2024</p>
+        </li>
+        <li class="border-b border-gray-300 pb-4">
+          <a href="#" class="text-lg font-semibold text-blue-500 hover:underline">chirdbirth and control</a>
+          <p class="text-gray-600">June 20, 2024</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Newsletter Subscription Form -->
+  <section class="py-12 bg-blue-100">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-semibold mb-4">Subscribe to Our Newsletter</h2>
+      <p class="text-gray-700 mb-6">Stay updated with the latest posts and news.</p>
+      <form class="flex flex-col sm:flex-row justify-center items-center gap-4">
+        <input type="email" placeholder="Your email address" class="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600">Subscribe</button>
+      </form>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <div class="flex justify-center space-x">
+
